@@ -1,0 +1,36 @@
+.container{
+    width: 1080px;
+    margin: auto;
+}
+.card{
+    float: left;
+    margin: 10px;
+    height: 140px;
+    width: 140px;
+    border: 10px solid #212121;
+    background: #424242;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px white;
+    transition: 0.5s;
+}
+.card:hover {
+    box-shadow: 0px 0px 60px #ccc;
+    transform: scale(1.01);
+}
+.card p{
+    font-size: 50px;
+}
+body{
+    background: url(mountain.jpg) no-repeat center center fixed;
+    font-family: Century Gothic;
+    color: #212121;
+}
+.header{
+    margin: 10px auto;
+    text-align: center;
+}
+.transform{
+    transform: rotateY(180deg);
+    transform-style: preserve-3d;
+}
